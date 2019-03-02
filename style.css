@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny|Gloria+Hallelujah');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gloria Hallelujah', cursive;
+  background: #202123;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Coiny', cursive;
+  letter-spacing: 10px;
+}
+#fox {
+  margin-top: 100px;
+}
+#start-block {
+
+  height: 35px;
+  margin: 0px auto;
+  margin-top: 50px;;
+}
+#start-block input,#start-block button {
+  display: block;
+}
+#start-block div {
+  width: 120px;
+  text-align: center;
+  height: 40px;
+  margin: 40px auto;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+}
+#start-block input {
+  width: 250px;
+  height: 35px;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+#name {
+  text-align: center;
+  padding:  0;
+  font-size: 25px;
+}
+.score,.time {
+text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  color: green;
+}
+.score {
+ width: 200px;
+ margin: 0px auto;
+}
+.time {
+  position: fixed;
+  bottom: 0;
+  margin: 0 45%;
+}
+
+#game-zone  {
+  width: 90%;
+  height: 80vh;
+  margin: 40px auto 0px;
+  border: 2px solid red;
+  position: relative;
+}
+#play-zone {
+  display: none;
+  text-align: center;
+  background-image: url(wood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+#bird {
+position: absolute;
+top: 0px;
+left: 0px;
+display: block;
+width: 150px;
+height: 150px;
+background-image: url(metamsk1.png);
+background-position: center;
+background-repeat: no-repeat;
+
+}
+#popup-score {
+  display: none;
+  width: 30vw;
+position: fixed;
+left: 30%;
+top: 0;
+  padding: 75px;
+  text-align: center;
+  background-color: #e8e074;
+  color: #68bed8;
+  border-radius: 15px;
+}
+#youscore {
+  font-size: 40px;
+  font-weight: bold;
+}
+#tablewin {
+margin-top: 30px;
+position: relative;
+}
+
+ .nickname {
+  text-align: left;
+  color: #000;
+  display: inline-block;
+  width: 49%;
+}
+ .total{
+  text-align: right;
+  color: #000;
+  width: 49%;
+  display: inline-block;
+}
+#reset {
+  display: block;
+  position: absolute;
+  bottom: -55px;
+  left: 105px;
+  color: #fff;
+  padding: 10px 15px;
+  background-color: #68bed8;
+}

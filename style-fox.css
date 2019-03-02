@@ -1,0 +1,19 @@
+html, body{
+  height: 100%;
+}
+
+body{
+
+  text-align: center;
+  color: white;
+
+}
+
+div{
+  
+  overflow: visible;
+}
+
+svg {
+  overflow: visible;
+}
